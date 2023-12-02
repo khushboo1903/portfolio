@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html body {
+	height: 100vh;
+	width: 100%;
+}
+#nav {
+	/* background-color: aquamarine; */
+	height: 70px;
+	width: 100vw;
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+#nav img {
+	/* width: 20%; */
+	height: 210px;
+	/* background-color: blue; */
+}
+#nav #link {
+	padding: 0px 60px;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+#nav #link a {
+	text-decoration: none;
+	color: black;
+}
